@@ -5,6 +5,7 @@ import './plugins/element.js'
 import './plugins/vchart.js'
 import ECharts from 'echarts'
 import VueECharts from 'vue-echarts'
+import './styles/index.scss'
 Vue.component('v-chart', VueECharts)
 
 Vue.config.productionTip = false
