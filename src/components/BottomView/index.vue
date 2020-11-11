@@ -52,7 +52,7 @@
           </div>
         </template>
         <template>
-          <div class="chart-wrapper" style="height: 442px">
+          <div class="chart-wrapper" style="height: 443px">
             <v-chart :options="categoryOptions" />
           </div>
         </template>

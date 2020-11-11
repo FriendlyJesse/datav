@@ -8,6 +8,16 @@ const routes = [
     path: '/',
     name: 'Home',
     component: () => import('../views/Home.vue')
+  },
+  {
+    path: '/bmap',
+    name: 'BMap',
+    component: () => import('../views/BMap.vue')
+  },
+  {
+    path: '/liquidfill',
+    name: 'liquidfill',
+    component: () => import('../views/Liquidfill.vue')
   }
 ]
 
